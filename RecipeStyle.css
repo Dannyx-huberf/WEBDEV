@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url(/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:'YoungSerif';
+  src: url(/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body{
+  font-family: 'Outfit';
+  background-color: rgb(245, 216, 221);
+}
+.container{
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container img{
+  width: 100%;
+}
+.container h1{
+  font-family: 'YoungSerif';
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.container h3{
+  font-family: 'YoungSerif';
+  font-size: 1.2rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+.container p{
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+ul{
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+ul h5{
+  font-size: 1.2rem;
+  color: hsl(332, 51%, 32%);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'outfit';
+  
+}
+ul li{
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.Preparation-time{
+  background-color:rgb(245, 216, 221);
+}
+.ingredients li{
+  margin-bottom: 20px;
+}
+
+ol{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+ol li{
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+ol span{
+  font-weight: bold;
+}
+.nutrition-table-p{
+  font-family: 'outfit';
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td {
+  padding: 12px 15px;
+  /* text-align: left; */
+}
+
+td {
+  border-bottom: 1px solid #dddddd;
+  color: #333333;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+.nutients{
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+/* Add some spacing and alignment */
+/* td:first-child {
+  font-weight: bold;
+  color: #555555;
+}
+
+td:last-child {
+  text-align: right;
+  color: #3498db;
+} */
+@media (max-width:395px){
+  body{
+    margin: 0;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+  .container h1{
+    font-size: 1.7rem;
+  }
+  .container h3{
+    font-size: 1rem;
+  }
+  .container p{
+    font-size: 1rem;
+  }
+  .Preparation-time h5{
+    padding-left: 10px;
+  }
+  .Preparation-time li{
+    padding-left: 10px;
+  }
+}
